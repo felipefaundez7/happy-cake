@@ -1,0 +1,18 @@
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.estilo-contacto {
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.input-large {
+  min-width: 100vh
+}
