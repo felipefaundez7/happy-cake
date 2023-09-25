@@ -1,0 +1,16 @@
+.titulo {
+  color: black; 
+  font-size: 36px; 
+  margin-top: 40px; 
+}
+
+.subtitulo {
+  color: black; 
+  font-size: 18px; 
+  margin-top: 20px; 
+}
+
+.emoji {
+  font-size: 100px; 
+  margin-top: 20px; 
+}

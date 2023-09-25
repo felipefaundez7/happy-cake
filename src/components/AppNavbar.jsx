@@ -9,12 +9,12 @@ export default function AppNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/"> 🏡 Home</Link>
-            <Link to="/contacto"> 📒 Contacto</Link>
+            <Link className="navbar" to="/"> 🏡 Home</Link>
+            <Link className="navbar" to="/contacto"> 📒 Contacto</Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand>
-          <Link to="/"> Happy Cake  🍰 </Link>  
+          <Link className="navbar" to="/"> Happy Cake  🍰 </Link>  
         </Navbar.Brand>
       </Container>
     </Navbar>
